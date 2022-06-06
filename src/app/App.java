@@ -26,6 +26,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter merchant name: ");
         merchantName = scanner.nextLine();
+        System.out.print("Enter merchant surname: ");
         System.out.print("Enter merchant phone: ");
         phone = scanner.nextLine();
         System.out.print("Enter merchant email: ");

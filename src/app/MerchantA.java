@@ -22,6 +22,8 @@ public class MerchantA extends Merchant implements Bonus {
             return sales * 5 / 100;
         } else if (sales > 10000 && sales <= 30000) {
             return sales * 10 / 100;
+        } else if (sales > 30000 && sales <= 40000) {
+            return sales * 15 / 100;
         } else {
             return sales * 20 / 100;
         }
